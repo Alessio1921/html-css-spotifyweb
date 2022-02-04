@@ -19,7 +19,7 @@ header{
 }
 .head-logo, nav{
   height: 100%;
-  width: 25vh;
+  width: 15vw;
   background-color: black;
 }
 .head-logo img{
@@ -55,13 +55,17 @@ footer{
 .white{
   color: white;
 }
-/* nav bar */
-nav{
-  flex-direction: column;
+.gray{
   color: #626262;
 }
-nav ul li{
+ul li{
   list-style: none;
+}
+/* nav*/
+nav{
+  flex-direction: column;
+}
+nav ul li{
   padding: .5rem;
 }
 nav ul li i{
@@ -97,4 +101,27 @@ h3{
 }
 .nav-user div{
   padding: .5rem;
+}
+/* end nav */
+/* start main nav */
+.main-navbar ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: .8rem;
+}
+.underline{
+  border: solid #b9ff32;
+  width: 35%;
+  margin-left: 32%;
+}
+.main-navbar{
+  justify-content: center;
+}
+.container{
+  width: 85vw;
+  font-size: .9rem;
+  padding: 1rem;
+}
+.container h2{
+  margin: 2rem 0 2rem 0;
 }
