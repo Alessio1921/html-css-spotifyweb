@@ -1,0 +1,28 @@
+/* tablet */
+@media screen and (max-width:1200px){
+  
+}
+/* horizontal smartphone */
+@media screen and (max-width:768px){
+  
+}
+/* smartphone */
+@media screen and (max-width:576px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .head-logo, nav{
+    width: 5vh;
+  }
+  .head-logo img{
+    margin: 5px;
+  }
+  .logo-small{
+    display: block;
+  }
+  .logo{
+    display: none;
+  }
+}
