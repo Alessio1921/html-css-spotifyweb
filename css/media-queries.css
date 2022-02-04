@@ -57,4 +57,10 @@
   .nav-user{
     text-align: center;
   }
+  .nav-btn ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.4rem;
+  }
 }
