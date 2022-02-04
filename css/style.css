@@ -40,10 +40,7 @@ a{
 main{
   background-color: #141922;
   height: 78vh;
-}
-footer{
-  background-color: #282828;
-  height: 12vh;
+  width: 100vw;
 }
 /* common classes */
 .d-flex{
@@ -65,6 +62,10 @@ ul li{
   list-style: none;
 }
 /* nav*/
+nav{
+  height: 100%;
+  width: 15vw;
+}
 nav ul li{
   padding: .5rem;
 }
@@ -117,6 +118,10 @@ nav h3{
 .main-navbar{
   justify-content: center;
 }
+.main-navbar ul{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 /* end main nav */
 .container{
   width: 85vw;
@@ -125,7 +130,9 @@ nav h3{
   overflow: auto;
 }
 .row{
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 .container h2{
   margin: 2rem 0 1.5rem;
@@ -137,4 +144,11 @@ nav h3{
 }
 .row img{
   width: 100%;
+}
+
+
+
+footer{
+  background-color: #282828;
+  height: 12vh;
 }
