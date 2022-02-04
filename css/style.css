@@ -5,13 +5,14 @@
 }
 body{
   font-family: 'Circular Std', sans-serif;
+  color: white;
 }
+/* header */
 header{
   background-color: #080b12;
   height: 10vh;
   text-transform:uppercase ;
   align-items: center;
-
 }
 .logo-small{
   display: none;
@@ -31,6 +32,7 @@ header{
   border: solid white;
   height: 50%;
 }
+/* end header */
 a{
   text-decoration: none;
   color: white;
@@ -49,4 +51,50 @@ footer{
 }
 .flex-betw{
   justify-content: space-between;
+}
+.white{
+  color: white;
+}
+/* nav bar */
+nav{
+  flex-direction: column;
+  color: #626262;
+}
+nav ul li{
+  list-style: none;
+  padding: .5rem;
+}
+nav ul li i{
+  width: 10%;
+  text-align: center;
+  margin-right: .5rem;
+}
+.border-green{
+  border-left: #b9ff32 solid ;
+}
+h3{
+  text-transform: uppercase;
+  padding: .5rem;
+}
+.plus{
+  background-color: #a3a3a3;
+  color: black;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.nav-user div:first-child{
+  border-bottom: #626262 solid;
+  font-size: .8rem;
+}
+.user{
+  font-size: 1.2rem;
+}
+.nav-user span{
+  margin-left: .5rem;
+}
+.nav-user div{
+  padding: .5rem;
 }
