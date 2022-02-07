@@ -10,20 +10,26 @@ body{
 /* header */
 header{
   background-color: #080b12;
-  height: 10vh;
+  height: 77px;
   text-transform:uppercase ;
   align-items: center;
 }
 .logo-small{
   display: none;
 }
+.container-btn{
+  overflow: hidden;
+}
 .head-logo, nav{
-  height: 100%;
-  width: 15vw;
+  height:77px;
+  width: 205px;
   background-color: black;
 }
-.head-logo img{
-  width: 75%;
+.container-logo{
+  height: 40px;
+}
+.container-logo img{
+  height:100%;
   margin:.8rem;
 }
 .btn-large{
@@ -39,7 +45,7 @@ a{
 }
 main{
   background-color: #141922;
-  height: 78vh;
+  height: calc(100vh - 152px);
   width: 100vw;
 }
 /* common classes */
@@ -64,7 +70,7 @@ ul li{
 /* nav*/
 nav{
   height: 100%;
-  width: 15vw;
+  width: 205px;
 }
 nav ul li{
   padding: .5rem;
@@ -80,6 +86,13 @@ nav ul li i{
 nav h3{
   text-transform: uppercase;
   padding: .5rem;
+}
+.nav-list{
+  overflow: auto;
+}
+.nav-list{
+  height: 40vh;
+  font-size: .8rem;
 }
 .plus{
   background-color: #a3a3a3;
@@ -124,7 +137,7 @@ nav h3{
 }
 /* end main nav */
 .container{
-  width: 85vw;
+  width: calc(100vw - 205px);
   font-size: .9rem;
   padding: 1rem;
   overflow: auto;
@@ -150,5 +163,5 @@ nav h3{
 
 footer{
   background-color: #282828;
-  height: 12vh;
+  height: 75px;
 }
