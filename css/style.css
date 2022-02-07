@@ -181,7 +181,7 @@ footer{
   height: 75px;
 }
 .aside-footer{
-  width: 200px;
+  width: 215px;
   margin: 10px;
 }
 .aside-footer h4{
@@ -224,12 +224,28 @@ footer{
   background-color: gray;
   border-radius: 2px;
   height: 4px;
-  width: 500px;
+  vertical-align: middle;
+  display: inline-block;
 }
 .bar-above{
   top: 0;
   left: 0;
   border: 2px solid white;
   border-radius: 2px;
+}
+.big-bar-below{
+  width: 500px;
+}
+.big-bar-above{
   width: 100px;
+}
+.small-bar-below{
+  width: 120px;
+}
+.small-bar-above{
+  width: 30px;
+}
+.right-aside{
+  align-items: center;
+  gap: 15px;
 }
