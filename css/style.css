@@ -130,6 +130,7 @@ nav h3{
 }
 .main-navbar{
   justify-content: center;
+  width: 100%;
 }
 .main-navbar ul{
   flex-wrap: wrap;
@@ -158,8 +159,15 @@ nav h3{
 .row img{
   width: 100%;
 }
-
-
+.container h2{
+  margin: 10px 0;
+}
+.container p{
+  margin: 10px 0;
+}
+.img-border-radius img{
+  border-radius: 50%;
+}
 
 footer{
   background-color: #282828;
