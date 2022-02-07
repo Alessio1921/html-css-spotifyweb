@@ -109,6 +109,9 @@ nav h3{
   height: 40px;
   line-height: 40px;
 }
+.nav-list span{
+  vertical-align: super;
+}
 .nav-user div:first-child{
   border-bottom: #626262 solid;
   font-size: .8rem;
@@ -184,11 +187,10 @@ footer{
   width: 215px;
   margin: 10px;
 }
-.aside-footer h4{
+.title-img{
   padding: 10px 10px 1px;
 }
 .aside-footer p {
-  padding-left: 10px;
   font-size: .8rem;
 }
 .aside-footer .btn-footer{
@@ -201,6 +203,9 @@ footer{
 #aside-img img{
   width: 100%;
 }
+#center-footer{
+  width: calc(100% - 430px);
+}
 .button-center-footer{
   justify-content: center;
   gap: 20px;
@@ -212,6 +217,9 @@ footer{
 }
 .down-bar{
   height: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
 }
 .down-bar div, .down-bar span{
   display: inline-block;
@@ -234,10 +242,10 @@ footer{
   border-radius: 2px;
 }
 .big-bar-below{
-  width: 500px;
+  width: 70%;
 }
 .big-bar-above{
-  width: 100px;
+  width: 15%;
 }
 .small-bar-below{
   width: 120px;
