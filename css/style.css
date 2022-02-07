@@ -67,6 +67,12 @@ main{
 ul li{
   list-style: none;
 }
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
 /* nav*/
 nav{
   height: 100%;
@@ -168,8 +174,62 @@ nav h3{
 .img-border-radius img{
   border-radius: 50%;
 }
-
+/* end main */
+/* start footer */
 footer{
   background-color: #282828;
   height: 75px;
+}
+.aside-footer{
+  width: 200px;
+  margin: 10px;
+}
+.aside-footer h4{
+  padding: 10px 10px 1px;
+}
+.aside-footer p {
+  padding-left: 10px;
+  font-size: .8rem;
+}
+.aside-footer .btn-footer{
+  padding: 20px 0;
+  margin-left: 20px;
+}
+#aside-img{
+  width: 55px;
+}
+#aside-img img{
+  width: 100%;
+}
+.button-center-footer{
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 50%;
+}
+.fa-play-circle{
+  font-size: 1.5rem;
+}
+.down-bar{
+  height: 50%;
+}
+.down-bar div, .down-bar span{
+  display: inline-block;
+}
+.down-bar span{
+  font-size: .7rem;
+  margin:0 10px;
+}
+.bar-below{
+  background-color: gray;
+  border-radius: 2px;
+  height: 4px;
+  width: 500px;
+}
+.bar-above{
+  top: 0;
+  left: 0;
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 100px;
 }
