@@ -157,13 +157,12 @@ nav h3{
 .row{
   justify-content: flex-start;
   gap: 2rem;
-  flex-wrap: wrap;
 }
 .container h2{
   margin: 2rem 0 1.5rem;
 }
 .row .card{
-  width: 150px;
+  width: 14%;
   font-size: .7rem;
   text-align: center;
 }
