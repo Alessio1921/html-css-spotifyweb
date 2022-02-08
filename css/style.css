@@ -36,13 +36,11 @@ header{
   border-radius: 40px;
   padding: .5rem;
   border: solid white;
-  height: 50%;
   margin-right: 5px;
 }
 /* end header */
 a{
   text-decoration: none;
-  color: white;
 }
 main{
   background-color: #141922;
@@ -62,7 +60,7 @@ main{
 .white{
   color: white;
 }
-.gray{
+.gray, a{
   color: #626262;
 }
 ul li{
@@ -228,9 +226,6 @@ footer{
   align-items: center;
   padding-bottom: 15px;
 }
-.down-bar div, .down-bar span{
-  display: inline-block;
-}
 .down-bar span{
   font-size: .7rem;
   margin:0 10px;
@@ -240,12 +235,10 @@ footer{
   border-radius: 2px;
   height: 4px;
   vertical-align: middle;
-  display: inline-block;
 }
 .bar-above{
-  top: 0;
-  left: 0;
-  border: 2px solid white;
+  height: 4px;
+  background-color: white;
   border-radius: 2px;
 }
 .big-bar-below{
@@ -266,6 +259,7 @@ footer{
 }
 /* end footer */
 /* start hover */
+/* hover card */
 .card:hover .overlay{
   background-color: rgba(0, 0, 0 , .4);
 }
@@ -288,4 +282,35 @@ footer{
 }
 .radius-overlay{
   border-radius: 50%;
+}
+/* end hover card */
+.btn-large:hover{
+  padding: 15px;
+}
+a:hover{
+  color: white;
+}
+footer a:hover{
+  text-decoration: underline white;
+}
+li:hover .plus{
+  background-color: white;
+}
+footer .fa-play-circle:hover{
+  font-size: 2rem;
+}
+.ball{
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 5px;
+  left: 98%;
+  display: none;
+}
+.bar-below:hover .ball{
+  display: block;
+}
+.bar-below:hover .bar-above{
+  background-color: #b9ff32;
 }
