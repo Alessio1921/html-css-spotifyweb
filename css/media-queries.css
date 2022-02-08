@@ -58,10 +58,6 @@
     margin-right: 10px;
     padding: 0.3rem;
   }
-  header{
-    height: 7vh;
-    width: 100vw;
-  }
   /* nav */
   .nav-list{
     display: none;
@@ -93,7 +89,6 @@
   /* end nav */
   /* main */
   main{
-    height: 83vh;
     width: 100vw;
   }
   .container{
