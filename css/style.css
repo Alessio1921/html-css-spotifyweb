@@ -78,6 +78,8 @@ ul li{
 nav{
   height: 100%;
   width: 205px;
+  overflow: hidden;
+  min-height: 350px;
 }
 nav ul li{
   padding: .5rem;
@@ -100,6 +102,9 @@ nav h3{
 .nav-list{
   height: 40vh;
   font-size: .8rem;
+}
+.nav-user{
+  overflow: hidden;
 }
 .plus{
   background-color: #a3a3a3;
@@ -183,6 +188,8 @@ nav h3{
 footer{
   background-color: #282828;
   height: 75px;
+  position: relative;
+  z-index: 2;
 }
 .aside-footer{
   width: 215px;

@@ -62,9 +62,6 @@
     height: 7vh;
     width: 100vw;
   }
-  footer{
-    height: 10vh;
-  }
   /* nav */
   .nav-list{
     display: none;
