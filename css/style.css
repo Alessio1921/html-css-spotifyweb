@@ -189,7 +189,6 @@ footer{
   background-color: #282828;
   height: 75px;
   position: relative;
-  z-index: 2;
 }
 .aside-footer{
   width: 215px;

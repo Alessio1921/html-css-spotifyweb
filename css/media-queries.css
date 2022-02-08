@@ -37,7 +37,7 @@
   }
   /* header */
   .head-logo, nav{
-    width: 45px;
+    width:0;
   }
   .container-logo img{
     margin: 20px 2px;
