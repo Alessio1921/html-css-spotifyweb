@@ -6,6 +6,7 @@
 body{
   font-family: 'Circular Std', sans-serif;
   color: white;
+  overflow: hidden;
 }
 /* header */
 header{
@@ -137,7 +138,7 @@ main{
   margin-top: .8rem;
 }
 .underline{
-  border: solid #b9ff32;
+  border: 1px solid #b9ff32;
   width: 35%;
   margin-left: 32%;
 }
