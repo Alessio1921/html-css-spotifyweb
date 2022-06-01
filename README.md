@@ -3,11 +3,11 @@
 
 
 view from tablet:
-<img width="792" alt="Schermata 2022-06-01 alle 16 16 53" src="https://user-images.githubusercontent.com/95136261/171427214-80c92d94-0ed4-4145-905d-fcebe0f9b8b5.png">
-
+<img width="771" alt="Schermata 2022-06-01 alle 16 23 46" src="https://user-images.githubusercontent.com/95136261/171427703-9e79fb92-bdd3-44b5-937c-beea15d17636.png">
 
 view from smartphone landscape:
 <img width="611" alt="Schermata 2022-06-01 alle 16 17 07" src="https://user-images.githubusercontent.com/95136261/171427243-e27ae1b5-bf80-45ed-aa2d-345b6ef7bb89.png">
 
 view from smartphone:
+
 <img width="441" alt="Schermata 2022-06-01 alle 16 17 31" src="https://user-images.githubusercontent.com/95136261/171427278-dd841283-8279-4a0c-b73d-48a460a96295.png">
